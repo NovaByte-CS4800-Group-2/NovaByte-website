@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body, main{
+	height: 100%;
+	width: 100%;
+}
+main {
+	background-color: cornflowerblue;
+}
+div {
+	height: 100%;
+	display: flex;
+}
+h1 {
+	color: aliceblue;
+	margin: auto;
+}
