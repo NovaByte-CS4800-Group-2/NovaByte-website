@@ -27,6 +27,9 @@ h1 {
 }
 nav {
 	background-color: cornflowerblue; 
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 18px;
 }
 li{
 	color: white;

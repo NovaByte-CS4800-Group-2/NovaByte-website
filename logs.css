@@ -22,9 +22,11 @@ div {
 	color: white; 
 	align-items: top;
 }
-
 nav {
 	background-color: cornflowerblue; 
+	padding-top: 20px;
+	font-size: 18px;
+	padding-left: 10px;
 }
 li{
 	color: navy;
