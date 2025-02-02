@@ -31,7 +31,8 @@ li{
     width: 100%;
     list-style-type: circle;
     margin-left: 20px;
-    margin-top: 1%;
+    margin-top: 2%;
+	margin-bottom: 0.5%;
     font-weight: bolder; /* Make text bold */
     font-size: 16px;
 } 
@@ -75,4 +76,5 @@ h1{
     font-weight: normal;
     color: white;
     margin-top: 0;
+	margin-bottom: 0; 
 }
