@@ -4,18 +4,17 @@
 	margin: 0;
 	padding: 0;
 	border: none;
-	box-sizing: border-box;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 html, body, main{
-	height: 100%;
-	width: 100%;
+	height: 100vw;
+	width: 100vw;
 }
 main {
 	background-color: cornflowerblue;
 }
 div {
-	height: 100%;
+	height: 100vw;
 	padding: 20px; 
 	background-color: cornflowerblue;
 	color: white; 
@@ -33,7 +32,7 @@ nav {
 }
 li{
 	color: white;
-	width: 100%;
+	width: 100vw;
 	list-style-type: circle;
 	margin-left: 20px;
 } 
@@ -41,13 +40,13 @@ li{
 a {
 	color: white;
 	margin: auto;
-	width: 100%;
+	width: 100vw;
 	padding: 10px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 h1{
 	margin: auto;
-	width: 100%;
+	width: 100vw;
 	padding: 20px;
 	margin-bottom: -30px;
 	background-color: cornflowerblue;
