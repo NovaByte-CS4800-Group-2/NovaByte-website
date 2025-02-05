@@ -20,5 +20,6 @@ ul
 {
     color: rgb(87, 69, 69);
     font-size: 24px;
+    margin-left: 10px; 
     line-height: 1.6;
 }
