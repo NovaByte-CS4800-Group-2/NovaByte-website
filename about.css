@@ -8,6 +8,7 @@ li {
     font-size: 15px;
     margin-left: 20px;
     color: navy;
+    list-style-type: circle;
 }
 ul {
     font-size: 20px;
