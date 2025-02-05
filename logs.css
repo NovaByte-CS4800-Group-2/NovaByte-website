@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gill+Sans&display=swap');
 
 ul {
-	color: white; 
+	color: rgb(87, 69, 69);
 	margin: auto; 
 	margin-top: 0; 
 	padding: 5px; 
-	background-color: cornflowerblue; 
+	background-color: rgb(252, 244, 240);
 	font-weight: normal; 
 	font-size: 20px; 
 }
 li{
-	color: navy;
+	color: rgb(87, 69, 69);
     list-style-type: circle;
     margin-left: 20px;
     margin-top: 20px;
@@ -24,7 +24,7 @@ dl{
     padding: 0.04px;
     line-height: 1;
     margin-top: 2px;
-    color: white;
+    color: rgb(87, 69, 69);
 	
 }
 ol {
@@ -34,7 +34,7 @@ ol {
 .smaller-text{
     font-size: 14px;
     font-weight: normal;
-    color: white;
+    color: rgb(170, 55, 57);
     margin-top: 0;
 	margin-bottom: 0; 
 }

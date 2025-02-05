@@ -1,37 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Gill+Sans&display=swap');
 
-* {
+* 
+{
 	margin: 0;
 	padding: 0;
 	border: none;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 	box-sizing: border-box;
 }
-body {
-	background-color: cornflowerblue;
+
+body 
+{
+	background-color: rgb(252, 244, 240);
 	height: 100%;
 	width: 100%;
 }
-div {
+
+div 
+{
 	padding: 20px; 
-	color: white; 
 	align-items: top;
 }
-h1 {
-	color: white;
+
+h1 
+{
+	color: rgb(87, 69, 69);
+	font-size: 35px;
 	padding: 20px;
 	margin: auto;
-	margin-bottom: -30px;
 }
-nav {
-	background-color: cornflowerblue; 
-	padding-top: 20px;
-	padding-left: 10px;
+
+nav 
+{
+  display: flex;
+  flex-direction: row;
+	justify-content: space-between; 
 	font-size: 18px;
 }
-a {
-	color: white;
+
+a 
+{
+	font-family: Playfair Display,Arial;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(87, 69, 69);
 	margin: auto;
 	padding: 10px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.left-section
+{
+	display: flex;
+  align-items: center;
+	flex-shrink: 0;
+}
+
+.top-right-image 
+{
+	width: 400px;
+}
+
+.title
+{
+	font-family: Playfair Display,Arial;
+	padding-bottom: 20px;
+	font-size: 25px;
+  padding-left: 10px;
+}
+
+.paragraph,
+.specification-points
+{
+	font-family: Barlow,Arial;
+	font-size: 16px;
+	line-height: 1.6;
+	color: rgb(170, 55, 57);
+	margin-left: 0;
+	max-width: 800px; 
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.paragraph
+{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.specification-points
+{
+	padding-left: 40px;
+	padding-top: 10px;
 }
