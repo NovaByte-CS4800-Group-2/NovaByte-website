@@ -1,2 +1,2 @@
 # NovaByte-website
-The official website for NovaByte.
+The official website for Nova Byte.
