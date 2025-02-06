@@ -1,5 +1,5 @@
 ul {
-	color: rgb(87, 69, 69);
+	color: var(--liver);
 	margin-top: 0; 
     margin-left: 10px; 
 	padding: 5px; 
@@ -7,7 +7,7 @@ ul {
     font-family: "Playfair Display", sans-serif;
 }
 li{
-	color: rgb(87, 69, 69);
+	color: var(--liver);
     list-style-type: circle;
     margin-left: 20px;
     margin-top: 20px;
@@ -21,7 +21,7 @@ dl{
     padding: 0.04px;
     line-height: 1;
     margin-top: 2px;
-    color: rgb(87, 69, 69);
+    color: var(--liver);
 	
 }
 ol {
@@ -31,7 +31,27 @@ ol {
 .smaller-text{
     font-size: 14px;
     font-weight: normal;
-    color: rgb(170, 55, 57);
+    color: var(--auburn);
     margin-top: 0;
 	margin-bottom: 0; 
+}
+#week-selection-box {
+    margin: 6px 50px;
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--liver);
+    border-radius: 5px;
+}
+#week-selection-box h2 {
+    font-family: "Playfair Display", serif;
+    color: var(--liver);
+}
+#week-selection-box select {
+    background-color: var(--liver);
+    color: var(--seashell);
+    border-radius: 5%;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
 }
