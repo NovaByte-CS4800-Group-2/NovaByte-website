@@ -1,3 +1,11 @@
+:root {
+	--seashell: #FCF4F0;
+	--sage: #BABD8D;
+	--cocoa-brown: #DA6930;
+	--auburn: #AA3739;
+	--liver: #574545;
+}
+
 * 
 {
 	margin: 0;
@@ -5,11 +13,13 @@
 	border: none;
 	box-sizing: border-box;
 	font-family: "Barlow", sans-serif;
+	/* Comment in for testing */
+	/* border: 1px solid black; */
 }
 
 body 
 {
-	background-color: rgb(252, 244, 240);
+	background-color: var(--seashell);
 	height: 100%;
 	width: 100%;
 }
@@ -22,7 +32,7 @@ div
 
 h1 
 {
-	color: rgb(87, 69, 69);
+	color: var(--liver);
 	font-size: 35px;
 	padding: 20px;
 	margin-left: 10px; 
@@ -42,7 +52,7 @@ a
 	font-family: "Playfair Display", serif;
 	font-weight: 700;
 	font-size: 20px;
-	color: rgb(87, 69, 69);
+	color: var(--liver);
 	padding: 10px;
 }
 
@@ -73,7 +83,7 @@ a
 	font-family: "Barlow", sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
-	color: rgb(170, 55, 57);
+	color: var(--auburn);
 	margin-left: 10px;
 	max-width: 800px; 
 	word-wrap: break-word;

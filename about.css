@@ -6,12 +6,12 @@ li
 {
     font-size: 15px;
     margin-left: 20px;
-    color: rgb(170, 55, 57);
+    color: var(--auburn);
     list-style-type: circle;
 }
 ul 
 {
-    color: rgb(87, 69, 69);
+    color: var(--liver);
     font-size: 24px;
     margin-left: 10px; 
     line-height: 1.6;
