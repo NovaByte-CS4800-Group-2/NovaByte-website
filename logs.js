@@ -24,7 +24,13 @@ const data = await promise.then(result => {return result});
 // Array for days of the week.
 const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
-// Add event listener for change in value with an arrow function.
+// Populate the week dropdown selector with week numbers from logs.csv.
+const weekNumbers = [...new Set(data.map(day => day["week-number"]))]
+for (const num of weekNumbers) {
+	weekDropdown.innerHTML += `<option value="week-${num}">Week ${num}</option>`  
+}
+
+// Add event listener for selector change in value with an arrow function.
 weekDropdown.addEventListener("change", () => {
 	// If the dropdown value is the default "select" option, clear the display.
 	if (weekDropdown.value === "select") {
