@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gill+Sans&display=swap');
-
 * 
 {
 	margin: 0;
 	padding: 0;
 	border: none;
 	box-sizing: border-box;
-	font-family: Barlow,Arial;
+	font-family: "Barlow", sans-serif;
 }
 
 body 
@@ -27,33 +25,31 @@ h1
 	color: rgb(87, 69, 69);
 	font-size: 35px;
 	padding: 20px;
-	margin: auto;
 	margin-left: 10px; 
-	font-family: Playfair Display,Arial;
+	font-family: "Playfair Display", serif;
 }
 
 nav 
 {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 	justify-content: space-between; 
 	font-size: 18px;
 }
 
 a 
 {
-	font-family: Playfair Display,Arial;
+	font-family: "Playfair Display", serif;
 	font-weight: 700;
 	font-size: 20px;
 	color: rgb(87, 69, 69);
-	margin: auto;
 	padding: 10px;
 }
 
 .left-section
 {
 	display: flex;
-  align-items: center;
+  	align-items: center;
 	flex-shrink: 0;
 }
 
@@ -64,7 +60,7 @@ a
 
 .title
 {
-	font-family: Playfair Display,Arial;
+	font-family: "Playfair Display", serif;
 	padding-bottom: 20px;
 	margin-left: 20px; 
 	font-size: 25px;
@@ -74,13 +70,12 @@ a
 .paragraph,
 .specification-points
 {
-	font-family: Barlow,Arial;
+	font-family: "Barlow", sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
 	color: rgb(170, 55, 57);
 	margin-left: 10px;
 	max-width: 800px; 
-	width: 100%;
 	word-wrap: break-word;
 }
 

@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gill+Sans&display=swap');
-
 ul {
 	color: rgb(87, 69, 69);
-	margin: auto; 
 	margin-top: 0; 
     margin-left: 10px; 
 	padding: 5px; 
-	background-color: rgb(252, 244, 240);
-	font-weight: normal; 
 	font-size: 20px; 
-    font-family: Playfair Display,Arial;
+    font-family: "Playfair Display", sans-serif;
 }
 li{
 	color: rgb(87, 69, 69);

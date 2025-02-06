@@ -1,13 +1,7 @@
-* 
-{
-    box-sizing: border-box;
-}
-
 h1 
 {
     margin-bottom: -15px;
 }
-
 li 
 {
     font-size: 15px;
@@ -15,7 +9,6 @@ li
     color: rgb(170, 55, 57);
     list-style-type: circle;
 }
-
 ul 
 {
     color: rgb(87, 69, 69);
