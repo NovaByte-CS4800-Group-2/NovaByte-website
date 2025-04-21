@@ -38,7 +38,7 @@ weekDropdown.addEventListener("change", () => {
 	}
 	else {
 		// Get the chosen week's log data.
-		const weekNumber = weekDropdown.value.at(-1);
+		const weekNumber = weekDropdown.value.replace('week-', '');
 		const thisWeek = data.filter(day => day["week-number"] === weekNumber);
 		// Create the html to display.
 		let html = `<ul>Week ${weekNumber}`
