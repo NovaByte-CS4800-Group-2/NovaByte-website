@@ -25,7 +25,9 @@ const data = await promise.then(result => {return result});
 const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
 // Populate the week dropdown selector with week numbers from logs.csv.
-const weekNumbers = [...new Set(data.map(day => day["week-number"]))]
+// Filter out any falsy values from the weekNumbers array.
+const weekNumbers = [...new Set(data.map(day => day["week-number"]))].filter(Boolean);
+
 for (const num of weekNumbers) {
 	weekDropdown.innerHTML += `<option value="week-${num}">Week ${num}</option>`  
 }
